@@ -1,9 +1,3 @@
-# Fabric Example Mod
+# Discord Chat
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Minecraft fabric mod that brings a new way of using discord without getting out of minecraft.

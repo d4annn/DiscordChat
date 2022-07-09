@@ -1,35 +1,35 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "discordchat",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Discord Chat",
+  "description": "Minecraft fabric mod that brings a new way of using discord without getting out of minecraft.",
   "authors": [
-    "Me!"
+    "Dan"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "discord": "Noviembre#4606",
+    "sources": "https://github.com/d4annn/DiscordChat"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/discordchat/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.dan.discordchat.DiscordChat"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "discordchat.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.14.6",
     "fabric": "*",
-    "minecraft": "~1.19",
+    "minecraft": "~1.17",
     "java": ">=17"
   },
   "suggests": {
